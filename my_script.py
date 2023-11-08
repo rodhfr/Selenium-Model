@@ -31,8 +31,8 @@ username_field = WebDriverWait(driver, 10).until(
 password_field = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.ID, "txtManualPassword"))
 )
-username_field.send_keys("rodhfr")
-password_field.send_keys("ni140817")
+username_field.send_keys("login")
+password_field.send_keys("password")
 
 
 sign_in_button = WebDriverWait(driver, 10).until(
